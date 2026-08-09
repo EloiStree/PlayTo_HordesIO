@@ -3,9 +3,9 @@
 # Find and replace a text in all shortcut of the interpreter by a new text
 # short  cut alias♦text to replace with ♦ Hint information for debugging
 
-forward♦1087♦W Move character forward
+forward♦1038♦W or Arrow Forward Move character forward
 left♦1065♦A Translate to left side
-back♦1083♦s Move backward
+back♦1040♦S or Arrow Backward Move backward
 right♦1068♦D  Translate to the right side
 turn_left♦1037♦ Arrow Left to turn on the left side
 turn_right♦1039♦ Arrow right to turn on the right side
@@ -36,3 +36,7 @@ skillbar13♦♦None To trigger the power 13
 skillbar14♦♦None To trigger the power 14
 skillbar15♦♦None To trigger the power 15
 skillbar16♦♦None To trigger the power 16
+
+show_ground♦1016♦None Shift To display object on the  ground
+jump♦1032♦Space to jump with the champion
+
