@@ -1,0 +1,36 @@
+# Find and replace a text in all shortcut of the interpreter by a new text
+# short  cut alias♦text to replace with ♦ Hint information for debugging
+
+forward♦♦W Move character forward
+left♦♦A Translate to left side
+back♦♦s Move backward
+right♦♦D  Translate to the right side
+turn_left♦♦ Arrow Left to turn on the left side
+turn_right♦♦ Arrow right to turn on the right side
+map♦♦M to toggle the map UI
+skills♦♦K To toggle the Skill UI with the list of power
+character♦♦C To toggle the character sheet with all the stats
+inventory♦♦B To toggle display the inventory and money count in your bag
+clan♦♦G To toggle display the clan information if you a have one
+pvp♦♦V  To toggle your player versus player information
+party♦♦ P  To toggle  display the party in the server to join
+social♦♦I  To toggle Your friend information 
+target_next_enemy♦♦ Tab to target the next enemy in the list
+target_next_friendly♦♦ X the next friendly target
+untarget♦♦Escape to untarget an friendly or enemy
+skillbar1♦♦1 To trigger the power 1
+skillbar2♦♦2 To trigger the power 2
+skillbar3♦♦3 To trigger the power 3
+skillbar4♦♦4 To trigger the power 4
+skillbar5♦♦5 To trigger the power 5
+skillbar6♦♦6 To trigger the power 6
+skillbar7♦♦7 To trigger the power 7
+skillbar8♦♦8 To trigger the power 8
+skillbar9♦♦9 To trigger the power 9
+skillbar10♦♦0 To trigger the power 10
+skillbar11♦♦None To trigger the power 11 
+skillbar12♦♦None To trigger the power 12
+skillbar13♦♦None To trigger the power 13
+skillbar14♦♦None To trigger the power 14
+skillbar15♦♦None To trigger the power 15
+skillbar16♦♦None To trigger the power 16
