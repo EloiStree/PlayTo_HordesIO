@@ -20,4 +20,15 @@ https://hordes.io
 
 ---------
 
+Archer
 <img width="720" height="422" alt="image" src="https://github.com/user-attachments/assets/949381fe-b86c-4239-a740-3bbc97960a69" />
+
+Mage
+<img width="723" height="356" alt="image" src="https://github.com/user-attachments/assets/bcd96cf7-2030-4f2e-9665-86bcd0c278e0" />
+
+Shaman
+<img width="720" height="318" alt="image" src="https://github.com/user-attachments/assets/2ead46e0-8629-4e28-8f36-979ade7b9fd0" />
+
+
+Warrior
+<img width="714" height="351" alt="image" src="https://github.com/user-attachments/assets/ca762bae-b689-4498-879c-3a5c0933312a" />
