@@ -32,3 +32,16 @@ Shaman
 
 Warrior
 <img width="714" height="351" alt="image" src="https://github.com/user-attachments/assets/ca762bae-b689-4498-879c-3a5c0933312a" />
+
+
+
+**Grounded Move**:
+- Rotation 180 / seconds
+- Forward/Left/Right 5  / seconds (Water 2.7)
+- Backward 2.5  / seconds (Water 1.3)
+**Mounted Move**:
+- Rotation 180 / seconds
+- Forward/Left/Right 8.4  / seconds (Water 4.3)
+- Backward 4.2 / seconds (Water 2.1)
+
+
