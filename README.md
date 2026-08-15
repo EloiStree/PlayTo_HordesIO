@@ -19,27 +19,28 @@ https://hordes.io
 
 
 ---------
-
-Archer
+ 
+Archer   
 <img width="720" height="422" alt="image" src="https://github.com/user-attachments/assets/949381fe-b86c-4239-a740-3bbc97960a69" />
 
-Mage
+Mage   
 <img width="723" height="356" alt="image" src="https://github.com/user-attachments/assets/bcd96cf7-2030-4f2e-9665-86bcd0c278e0" />
 
-Shaman
+Shaman    
 <img width="720" height="318" alt="image" src="https://github.com/user-attachments/assets/2ead46e0-8629-4e28-8f36-979ade7b9fd0" />
 
 
-Warrior
+Warrior   
 <img width="714" height="351" alt="image" src="https://github.com/user-attachments/assets/ca762bae-b689-4498-879c-3a5c0933312a" />
 
 
-
-**Grounded Move**:
+  
+**Grounded Move**:  
 - Rotation 180 / seconds
 - Forward/Left/Right 5  / seconds (Water 2.7)
 - Backward 2.5  / seconds (Water 1.3)
-**Mounted Move**:
+    
+**Mounted Move**:   
 - Rotation 180 / seconds
 - Forward/Left/Right 8.4  / seconds (Water 4.3)
 - Backward 4.2 / seconds (Water 2.1)
