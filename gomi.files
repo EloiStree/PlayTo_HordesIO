@@ -1,0 +1,87 @@
+FILE>>>|.gate_out_udp
+byte♦️127.0.0.1♦️3615 7073
+
+FILE>>>|.ab_input_to_command
+
+#Right Horizontal
+xinput controller|s0|a0 ♦️ in ♦️ -0.8 ♦️-1 ♦️ sc:1065
+xinput controller|s0|a0 ♦️ out ♦️ -0.8 ♦️-1 ♦️ sc:2065
+xinput controller|s0|a0 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc:1068
+xinput controller|s0|a0 ♦️ out ♦️ 0.8 ♦️1 ♦️ sc:2068
+
+# Right Vertical
+xinput controller|s0|a1 ♦️ in ♦️ -0.8 ♦️-1 ♦️ sc:1038
+xinput controller|s0|a1 ♦️ out ♦️ -0.8 ♦️-1 ♦️ sc:2038
+xinput controller|s0|a1 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc:1040
+xinput controller|s0|a1 ♦️ out ♦️ 0.8 ♦️1 ♦️ sc:2040
+
+# Left Vertical
+xinput controller|s0|a2 ♦️ in ♦️ -0.8 ♦️-1 ♦️ sc:1009 100> 2009
+xinput controller|s0|a2 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc:1088 100> 2088
+
+# Right Vertical
+xinput controller|s0|a3 ♦️ in ♦️ -0.8 ♦️-1 ♦️ sc: 1077 100> 2077 
+xinput controller|s0|a3 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc: 1048 100> 2048
+
+# Side Button Left Right
+xinput controller|s0|b10 ♦️ true ♦️ sc:  1039
+xinput controller|s0|b10 ♦️ false ♦️sc: 2039
+xinput controller|s0|b9 ♦️ true ♦️ sc: 1037
+xinput controller|s0|b9 ♦️ false ♦️sc:2037
+
+# ABXY
+xinput controller|s0|b0 ♦️ true ♦️ sc: 1049 100> 2049
+xinput controller|s0|b1 ♦️ true ♦️sc: 1032 100> 2032
+xinput controller|s0|b2 ♦️ true ♦️ sc: 1050 100> 2050
+xinput controller|s0|b3 ♦️ true ♦️sc:1051 100> 2051
+
+# Joystick button left
+xinput controller|s0|b7 ♦️ true ♦️ sc: 1056 100>  2056
+# Joystick button right
+xinput controller|s0|b8 ♦️ true ♦️sc: 1057 100> 2057
+
+#Trigger left 
+xinput controller|s0|a4 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc:1056
+xinput controller|s0|a4 ♦️ out ♦️ 0.8 ♦️1 ♦️ sc:2056
+
+# Trigger Right
+xinput controller|s0|a5 ♦️ in ♦️ 0.8 ♦️1 ♦️ sc:1057
+xinput controller|s0|a5 ♦️ out ♦️ 0.8 ♦️1 ♦️ sc:2057
+
+#Menu Left
+xinput controller|s0|b4 ♦️ true ♦️ sc: 1067
+xinput controller|s0|b4 ♦️ false ♦️sc: 2067
+
+#Menu Right
+xinput controller|s0|b6 ♦️ true ♦️ sc: 1077
+xinput controller|s0|b6 ♦️ false ♦️sc: 2077
+
+
+#Arrow UP RIGHT DOWN LEFT
+xinput controller|s0|b11 ♦️ true ♦️ sc:  1075
+xinput controller|s0|b11 ♦️ false ♦️sc:  2075
+
+xinput controller|s0|b14 ♦️ true ♦️ sc:  1067
+xinput controller|s0|b14 ♦️ false ♦️sc:  2067
+
+xinput controller|s0|b12 ♦️ true ♦️ sc:  1077
+xinput controller|s0|b12 ♦️ false ♦️sc:  2077
+
+xinput controller|s0|b13 ♦️ true ♦️ sc:  1066
+xinput controller|s0|b13 ♦️ false ♦️sc:  2066
+
+godot_mouse ♦️ trigger♦️ MOUSE_SCROLL_UP ♦️ cmd:log SCROLL UP
+godot_mouse ♦️ trigger♦️ MOUSE_SCROLL_DOWN ♦️ cmd:log SCROLL DOWN
+
+nfc ♦️ trigger♦️ 123 ♦️ sc:42
+nfc ♦️ trigger♦️ 123 ♦️ cmd:log Meaning of life
+nfc ♦️ trigger♦️ aadd ♦️ sc:1077 100> 2077 1000> 1077 100> 2077
+nfc ♦️ trigger♦️ aadd ♦️ cmd:log Display Map for one seconds
+
+
+# Warning it only work if only clicking 3 times on this touch.
+# see .bool_morse_to_command if you want to be usable in any case.
+nfc ♦️ trigger♦️ R1|R1|R1| ♦️ sc: 1053 100> 2053
+nfc ♦️ trigger♦️ L1|L1|L1| ♦️ sc: 1054 100> 2054
+
+
